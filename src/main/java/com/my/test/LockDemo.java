@@ -20,8 +20,9 @@ public class LockDemo {
 
         ReadWriteLock lock = new ReentrantReadWriteLock();
 
-        lock.readLock();
+        lock.readLock().lock();
 
+        lock.readLock().unlock();
 //        lock.
 
     }
