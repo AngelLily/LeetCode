@@ -1,4 +1,4 @@
-package com.my.test;
+package my.test;
 
 import lombok.extern.slf4j.Slf4j;
 

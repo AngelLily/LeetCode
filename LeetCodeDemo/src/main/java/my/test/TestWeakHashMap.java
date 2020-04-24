@@ -1,4 +1,4 @@
-package com.my.test;
+package my.test;
 
 import java.util.HashMap;
 import java.util.WeakHashMap;

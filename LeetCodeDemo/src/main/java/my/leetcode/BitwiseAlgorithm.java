@@ -1,4 +1,4 @@
-package com.my.leetcode;
+package my.leetcode;
 
 import lombok.extern.slf4j.Slf4j;
 

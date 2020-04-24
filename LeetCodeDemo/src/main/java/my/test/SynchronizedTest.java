@@ -1,4 +1,4 @@
-package com.my.test;
+package my.test;
 
 public  class SynchronizedTest {
 
