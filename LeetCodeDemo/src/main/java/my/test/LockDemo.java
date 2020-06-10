@@ -1,7 +1,7 @@
 package my.test;
 
-import java.util.concurrent.locks.ReadWriteLock;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author lishuai47
@@ -13,17 +13,16 @@ public class LockDemo {
     public static void main(String[] args) {
 
 
-//        Lock lock = new ReentrantLock();
-//        lock.lock();
+        Lock lock = new ReentrantLock();
+        lock.lock();
+
+        lock.unlock();
+
+//        ReadWriteLock lock = new ReentrantReadWriteLock();
 //
-//        lock.unlock();
-
-        ReadWriteLock lock = new ReentrantReadWriteLock();
-
-        lock.readLock().lock();
-
-        lock.readLock().unlock();
-//        lock.
+//        lock.readLock().lock();
+//
+//        lock.readLock().unlock();
 
     }
 
